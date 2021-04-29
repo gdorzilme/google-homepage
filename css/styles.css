@@ -1,5 +1,48 @@
-li {
-  float: left;
-  
-} 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.main {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+}
+
+#searchbox {
+  width: 600px;
+  height: 50px;
+  display: flex;
+
+}
+
+.searchform{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content:space-between;
+
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
