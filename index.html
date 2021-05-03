@@ -12,28 +12,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body>
+    <b    ody>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <main>
-          <header class="header">
-              <a href="#"> <p>About</p> </a>
-              <a href="#"> <p>Store</p> </a>
-              <a href="#"> <p>Gmail</p> </a>
-              <a href="#"> <p>Images</p> </a>
-              <img src="../images/outline_apps_black_24dp.png" alt="Google Apps Logo">
-          </header>
+          <nav class="navbar">
+            <ul>
+             <li><a href="#">About</a> </li>
+             <li><a href="#">Store</a> </li> 
+             </ul>
+             <ul>
+             <li><a href="#">Gmail</a> </li>
+             <li><a href="#">Images</a> </li>
+             <li><a href="menu.google.com"><img src="../google-homepage/images/outline_apps_black_24dp.png" alt="Google Apps Logo"></a> </li>
+             <li><a href="#" class="google-signin">Sign In</a> </li>
+            </ul>
+            </nav>
           <div class="main">
               <img class="main-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  alt="Google Logo">
-              <div> </div>
-            <form class="searchform" action="#" >
+            
+            <div class="searchform" >
                 <input type="text" placeholder="search something" id="searchbox" x-webkit-speech />
                   <div >
-                    <button  type="submit">Google Search  </button>
-                    <button  type="submit">I'm Feeling Lucky  </button>
+                    <button><a href="#">Google Search</a></button>
+                    <button><a href="#">I'm Feeling Lucky</a></button>
                   </div>
-            </form>
+              </div>
 
 
           </div>
